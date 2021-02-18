@@ -28,8 +28,8 @@ end
 #binding.pry
 puts Benchmark.measure {prime?(2)}
 puts Benchmark.measure {prime?(-5646846464866)}
-puts Benchmark.measure {prime?(1)}
 puts Benchmark.measure {prime?(858)}
+puts Benchmark.measure {prime?(1)}
 puts Benchmark.measure {prime?(401)}
 puts Benchmark.measure {prime?(857)}
 puts Benchmark.measure {prime?(5939)}
