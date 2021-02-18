@@ -25,7 +25,7 @@ def prime?(integer)
   end
   return true
 end
-binding.pry
+#binding.pry
 puts Benchmark.measure {prime?(1)}
 puts Benchmark.measure {prime?(2)}
 puts Benchmark.measure {prime?(858)}
