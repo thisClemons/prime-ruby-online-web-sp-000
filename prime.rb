@@ -19,8 +19,8 @@ def prime?(integer)
   return false if integer % 2 == 0
   return false if integer == 1
   i = 3
-  while i < integer.floor
-    return false if integer % i  == 0
+  while i < integer.floor/4
+    return false if integer % (i*2)  == 0
     i += 1
   end
   return true
