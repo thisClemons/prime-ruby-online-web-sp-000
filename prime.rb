@@ -1,6 +1,6 @@
 require 'pry'
-# require 'benchmark'
-# require 'bigdecimal/math'
+require 'benchmark'
+require 'bigdecimal/math'
 
 # def prime?(integer)
 #   return true if integer == 2
