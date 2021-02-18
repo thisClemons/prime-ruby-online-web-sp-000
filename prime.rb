@@ -16,7 +16,8 @@ require 'pry'
 def prime?(integer)
   return true if integer == 2
   return false if integer <= 0
-  i = 1
+  return false if integer % 2 == 0
+  i = 2
   while i < (integer / 4).floor
     return false if integer % (i*2)  == 0
     i += 1
